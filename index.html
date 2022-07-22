@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="shortcut icon" href="./assets/img/logo.fc.png" type="image/x-icon">
+    <script src="./validaciones.js" defer></script>
+    <script src="./main.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>BlueSeen | Js</title>
+</head>
+<body class="index-container">
+
+    <div class="redes-sociales">
+        <img src="https://icongr.am/entypo/instagram.svg?size=38&color=ffffff" alt="instagram" class="redes-sociales-item">
+        <img src="https://icongr.am/entypo/twitter.svg?size=38&color=ffffff" alt="twitter" class="redes-sociales-item">
+        <img src="https://icongr.am/entypo/youtube.svg?size=38&color=ffffff" alt="youtube" class="redes-sociales-item">
+    </div>
+
+    <header>
+        <button type="image" class="button-logo"><img src="./assets/img/logo.PNG" alt="logo" class="logo"></button>
+        
+        <h1>¿Tenés actividades por agendar?</h1>
+    </header>
+
+    <div class="actividades">
+
+        <form id="formulario-actividad" class="formulario-actividad">
+
+            <p>Nombre de la actividad</p>
+            <input type="text" name="nombre" id="nombre-actividad" placeholder="Ej: correr">
+            
+            <p>Día que quieras hacer la actividad</p>
+            <input type="text" name="dia" id="dia-actividad" placeholder="Ej: jueves">
+        
+            <p>Hora aproximada en la que quieras hacer la actividad</p>
+            <input type="text" name="horario" id="horario-actividad" placeholder="Ej: 15hs">
+        
+            <p>Dirección o lugar en el que vayas a hacer la actividad</p>
+            <input type="text" name="direccion" id="direccion-actividad" placeholder="Ej: casa"></br>
+      
+            <button type="submit" class="button">AGREGAR ACTIVIDAD</button>
+        
+        </form>
+
+        <ul id="lista-actividades" class="lista-actividades"></ul>
+    </div>
+    
+    <footer>
+        <p>Todos los derechos reservados a Juan Bot :D</p>
+    </footer>
+</body>
+</html>
